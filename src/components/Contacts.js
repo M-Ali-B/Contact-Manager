@@ -16,12 +16,12 @@ class Contacts extends Component {
   }
 }
 
-Contacts.defaultProps = {
-name:['ali','bacha'],
-email:['ali@','bacha@'],
-phone:['0321','0322']
+// Contacts.defaultProps = {
+// name:['ali','bacha'],
+// email:['ali@','bacha@'],
+// phone:['0321','0322']
 
-}
+// }
 
 
 export default Contacts;
