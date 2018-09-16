@@ -4,7 +4,7 @@ import React, {
 import Contact from './Contact'
 class Contacts extends Component {
     state = { // values of key of contacts
-        contacts: [{
+        contacts: [{           // array of objects 
                 id: 1,
                 name: 'John Doe',
                 email: 'jdon@gmail.com',
@@ -33,8 +33,7 @@ class Contacts extends Component {
         const {
             contacts
         } = this.state;
-        return ( <
-            div > {
+        return ( <div > {
                 contacts.map(contact => ( <
                     Contact key = {
                         contact.id
@@ -50,8 +49,7 @@ class Contacts extends Component {
                     }
                     />
                 ))
-            } <
-            /div>
+            } </div>
 
         )
     }
